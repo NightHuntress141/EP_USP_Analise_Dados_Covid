@@ -1,0 +1,17 @@
+# Manipulação e Análise de Dados
+pandas
+numpy
+
+# Visualização de Dados (Fator 3 e Curadoria)
+matplotlib
+seaborn
+plotly          # Útil para mapas coropléticos interativos
+
+# Machine Learning (Modelos Candidatos)
+scikit-learn    # Para Regressão Linear, Random Forest e métricas (RMSE, MAE, R2)
+xgboost         # Para Gradient Boosting mencionado no plano
+lightgbm        # Alternativa de Gradient Boosting
+
+# Ferramentas de Suporte
+openpyxl        # Leitura de arquivos Excel se necessário
+joblib          # Para salvar/carregar modelos treinados
