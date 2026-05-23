@@ -8,6 +8,7 @@ Este projeto faz parte da disciplina **ACH2177 - Introdução à Ciência de Dad
 
 * Renan Gomes Miranda Costa
 * Rebecka Bocci Domingues
+
 ---
 
 ## 📋 Objetivo do Projeto
@@ -63,6 +64,24 @@ O projeto utiliza uma abordagem de **aprendizado de máquina supervisionado (reg
 
 ---
 
-## ⚠️ Observação
+## 💻 Ambiente de Desenvolvimento
 
-Este estudo é **estritamente observacional e exploratório**, não permitindo inferência causal direta.
+O projeto foi desenvolvido e executado em ambiente **Windows** utilizando **Conda** para garantir compatibilidade entre versões das bibliotecas e reprodutibilidade dos experimentos. 
+
+O repositório disponibiliza dois arquivos de configuração do ambiente:
+* `environment.yml` → Arquivo principal para reprodução completa do ambiente Conda utilizado no desenvolvimento do projeto.
+* `requirements.txt` → Lista simplificada das principais bibliotecas Python utilizadas no projeto.
+
+### 📦 Criação do Ambiente
+
+```bash
+conda env create -f environment.yml
+```
+
+### ▶️ Ativação do Ambiente
+
+```bash
+conda activate icd_projeto
+```
+
+O arquivo environment.yml contém as dependências necessárias para reproduzir o ambiente utilizado no projeto.
